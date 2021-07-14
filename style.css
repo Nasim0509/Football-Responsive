@@ -1,3 +1,165 @@
-h1{
-    color: red;
+/* ---------------------------Start style----- -----------------*/
+body{
+    margin: 0 auto;
 }
+.top{
+    background-color: #2d25a0;
+    width: 90%;
+    padding-right: 10%;
+}
+/*--- header style--- */
+header{
+    background-color: #2d25a0 ;
+    width: 100%;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+/* menu style */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav div a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 1em;
+    font-size: 1em;
+}
+nav div a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 1em;
+    font-size: 1.5em;
+    background-color: indigo;
+} 
+.login{
+    display: flex;
+    background-color:#e02c6d;
+    margin-right: 18%;
+}
+.login>button{
+    background-color:#e02c6d ;
+    border: none;
+    color: white;
+    font-size: 0.8em;
+}
+.login>button:hover{
+    font-size: 1em;
+}
+.login img{
+    width: 30%;
+    position: relative;
+    
+}
+/*---Thumbelina section style--------- */
+.Thumbelina{
+    background-color: #2d25a0 ;
+    width: 100%;
+    margin-left: 10%;
+    padding-bottom:3%;
+}
+/* banner style */
+.banner{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+.banner-text, h1{
+    font-size: 2em;
+    font-weight: 700;
+    color: whitesmoke;  
+}
+.banner-text a{
+    background-color: #e02c6d;
+    text-decoration: none;
+    border: 1px solid #e02c6d;
+    padding: 2px;
+    color: whitesmoke;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.banner-text a:hover{
+    background-color: #ad217b;
+    font-size: 1em;
+}
+.banner-text img{
+    width: 50%;
+    margin-left: 10%;
+    padding-left: 10%;
+}
+/* players style */
+.players{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 10%;
+    margin-top: 3%;
+    grid-gap: 1.5em;
+}
+.player-info{
+    width: 80%;
+    padding:5%;
+    box-shadow:20px 20px 50px lightgrey;
+    border: 1px solid whitesmoke;
+    font-family: 'Rubik', sans-serif;
+   
+}
+.player-info img{
+    width: 100%;
+}
+.player-info h1{
+    font-size: 2em;
+    color: black;
+}
+/* Match style */
+.Match{
+    width: 78%;
+    margin-left: 10%;
+    padding-top: 5%;
+    background-color: white;
+    display: flex;
+}
+.Match-text{
+    color:black;
+    width: 50%;
+    
+}
+.Match-text a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    background-color: #e02c6d;
+    margin-left: 2em;
+}
+.Match-text a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.8em;
+    background-color: indigo;
+} 
+.Match-text img{
+    width: 100%;
+    height: 100%; 
+}
+.Match-text h1{
+    font-size: 3em;
+    color: #0a0826;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+/* footer style */
+footer{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.logo img{
+    width: 60%;
+}
+.icons img{
+    width: 10%;
+}
+/* ----------------------------End style----------------------------------- */
